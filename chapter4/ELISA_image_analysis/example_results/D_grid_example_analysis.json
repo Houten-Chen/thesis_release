@@ -1,0 +1,27 @@
+{
+  "input_file": "D_grid_example.png",
+  "input_sha256": "4b187a95d59d08e1ce5ea0a440ad9086dcbbdf6b95581e591ce77a6ddce930b6",
+  "script_sha256": "dcb5b7782dbfd4d67f5cb975f9dd15cd285f01158fe29e6c958de80b2de45c7b",
+  "image_height": 108,
+  "image_width": 146,
+  "rows": 8,
+  "cols": 11,
+  "background_patch_side_pixels": 2,
+  "top_n": 10,
+  "threshold_fraction": 0.3,
+  "red_grid_rule_rgb": "R > 180, G < 80, B < 80",
+  "signal_definition": "Mean of retained 8-bit inverted grayscale pixels; no background subtraction or normalization.",
+  "versions": {
+    "python": "3.12.14",
+    "opencv": "5.0.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "openpyxl": "3.1.5"
+  },
+  "output_files": [
+    "D_grid_example_signals.csv",
+    "D_grid_example_signals.xlsx",
+    "D_grid_example_classified.png",
+    "D_grid_example_analysis.json"
+  ]
+}
