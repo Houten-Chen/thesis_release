@@ -10,4 +10,4 @@ All rows in this directory are **synthetic format examples**. IDs, sequences, an
 
 The prepared headers are exactly `Entry A,Entry B,Letters_A,Letters_B`. The reduced headers are exactly `proteinA,proteinB,Sequence A,Sequence B,interaction`. The examples include X placeholders in some sequences to exercise unknown-residue handling.
 
-The Chapter 1 README gives commands that turn the two prepared tables into separate positive/negative CSV and HDF5 files, then run a short CPU training check. Larger research databases should provide the same required columns after identifier matching and sequence preparation.
+The Chapter 2 README gives commands that turn the two prepared tables into separate positive/negative CSV and HDF5 files, then run a short CPU training check. Larger research databases should provide the same required columns after identifier matching and sequence preparation.

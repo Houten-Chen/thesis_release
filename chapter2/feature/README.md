@@ -72,7 +72,7 @@ python feature/build_dataset.py --input examples/biogrid_prepared_example.csv --
 python feature/extract_features.py --input work/positive.csv --output work/positive.hdf5 --alphabet hp2
 ```
 
-Run these commands from `chapter1`. Use `--help` for all options. The files under `original_scripts/` retain the uploaded implementations; they contain the original paths and may require manual edits and an interactive exit response.
+Run these commands from `chapter2`. Use `--help` for all options. The files under `original_scripts/` retain the uploaded implementations; they contain the original paths and may require manual edits and an interactive exit response.
 
 ## Exact alphabet configurations
 

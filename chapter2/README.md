@@ -1,4 +1,4 @@
-# Chapter 1 — PPI prediction with reduced amino-acid alphabets
+# Chapter 2 — PPI prediction with reduced amino-acid alphabets
 
 This release organizes the 15 supplied scripts into a shared dataset builder, feature extractor, and PyTorch training program. The five alphabet mappings and their numerical H1/H2 vectors are stored separately in `feature/alphabets.json`. The original files are retained byte-for-byte in the two `original_scripts/` directories and listed in `source_manifest.json`.
 
@@ -32,7 +32,7 @@ Group membership and all H1/H2 numbers are documented in [feature/README.md](fea
 
 ## Installation
 
-Use Python 3.10 or later. From the `chapter1` directory:
+Use Python 3.10 or later. From the `chapter2` directory:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -97,7 +97,7 @@ The full databases, precomputed research features, trained research weights, and
 
 ## Validation and provenance
 
-Run the bundled checks from `chapter1`:
+Run the bundled checks from `chapter2`:
 
 ```bash
 python validation/validate_release.py

@@ -186,7 +186,7 @@ def extract(input_path, output_path, alphabet, overwrite=False):
             ).hexdigest()
             handle.attrs["position_bins"] = BINS
             handle.attrs["maxlag"] = MAXLAG
-            handle.attrs["feature_version"] = "chapter1-original-equations-v1"
+            handle.attrs["feature_version"] = "chapter2-original-equations-v1"
             for column in ("proteinA", "proteinB"):
                 ids = np.asarray(
                     [value.encode("utf-8") for value in data[column]], dtype="S"

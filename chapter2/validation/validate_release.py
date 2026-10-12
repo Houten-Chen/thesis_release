@@ -226,7 +226,7 @@ class ReleaseChecks(unittest.TestCase):
                 )
 
     def test_csv_hdf5_and_cpu_training(self):
-        with tempfile.TemporaryDirectory(prefix="chapter1_validation_") as directory:
+        with tempfile.TemporaryDirectory(prefix="chapter2_validation_") as directory:
             work = Path(directory)
             for alphabet in ALPHABETS:
                 for label, source in ((1, "biogrid"), (0, "negatome")):
