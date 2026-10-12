@@ -1,0 +1,85 @@
+{
+  "groups": [
+    {
+      "label": "Membrane",
+      "kind": "protein",
+      "file": "../data/z_membrane.csv",
+      "color": "#E31A1C",
+      "fit_reference": true,
+      "reference_outline": false,
+      "fill": true
+    },
+    {
+      "label": "Cytoplasm",
+      "kind": "protein",
+      "file": "../data/z_cytoplasma.csv",
+      "color": "#1F78B4",
+      "fit_reference": true,
+      "reference_outline": false,
+      "fill": true
+    },
+    {
+      "label": "UniProt protein set",
+      "kind": "protein",
+      "file": "../data/z_reviewed_annotation_4_5.csv",
+      "color": "#000000",
+      "fit_reference": true,
+      "reference_outline": true,
+      "fill": false
+    },
+    {
+      "label": "Disordered region",
+      "kind": "protein",
+      "file": "../data/z_IDR_sequences_over50.csv",
+      "color": "#0313FF",
+      "fit_reference": true,
+      "reference_outline": false,
+      "fill": true
+    },
+    {
+      "label": "RHP(15/55)",
+      "display_label": "RHP1",
+      "kind": "rhp",
+      "file": "../data/z_RHP(15_55).csv",
+      "color": "#9C27B0",
+      "fit_reference": false,
+      "fill": false
+    },
+    {
+      "label": "RHP(30/40)",
+      "display_label": "RHP2",
+      "kind": "rhp",
+      "file": "../data/z_RHP(30_40).csv",
+      "color": "#FC633D",
+      "fit_reference": false,
+      "fill": false
+    },
+    {
+      "label": "RHP(40/30)",
+      "display_label": "RHP3",
+      "kind": "rhp",
+      "file": "../data/z_RHP(40_30).csv",
+      "color": "#33A02C",
+      "fit_reference": false,
+      "fill": false
+    },
+    {
+      "label": "RHP(50/20)",
+      "display_label": "RHP4",
+      "kind": "rhp",
+      "file": "../data/z_RHP(50_20).csv",
+      "color": "#B2DF8A",
+      "fit_reference": false,
+      "fill": false
+    },
+    {
+      "label": "RHP(65/5)",
+      "display_label": "RHP5",
+      "kind": "rhp",
+      "file": "../data/z_RHP(65_5).csv",
+      "color": "#A6CEE3",
+      "fit_reference": false,
+      "fill": false
+    }
+  ]
+}

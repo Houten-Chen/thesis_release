@@ -1,0 +1,23 @@
+{
+  "input_dim": [
+    5,
+    51
+  ],
+  "latent_dim": 16,
+  "win_length": 5,
+  "enc_hidden_sizes": [
+    512,
+    256,
+    64
+  ],
+  "dec_hidden_sizes": [
+    64,
+    256,
+    512
+  ],
+  "compute_HLB": true,
+  "MLP_HLB_size": [
+    32,
+    32
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "validation_date_utc": "2026-10-12",
+  "status": "passed",
+  "tests_run": 17,
+  "skipped": 0,
+  "original_scripts_verified": 8,
+  "pseudo_block_regression_chains": 60,
+  "duration_seconds": 20.764,
+  "research_checkpoints_tested": false,
+  "ae_adapter": "upstream AE_MP with newly initialized fixture weights",
+  "q3_adapter": "upstream Porter6 Net with fixture weights and mocked ESM representations",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "scikit_learn": "1.8.0",
+    "torch": "2.14.1+cpu",
+    "fair_esm": "2.0.0"
+  }
+}

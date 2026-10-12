@@ -1,0 +1,4 @@
+-r requirements.txt
+torch>=2.2
+fair-esm>=2.0
+openpyxl>=3.1
