@@ -1,0 +1,24 @@
+{
+  "hp2": {
+    "name": "HP2-style", "source_prefix": "2", "groups": ["CFILMVWY", "AGPSTDEHKNQR"],
+    "unknown": "3", "H1": [2.1875, -2.28], "H2": [-1.56, 0.24], "learning_rate": 0.00001
+  },
+  "li3": {
+    "name": "Li3-style", "source_prefix": "3", "groups": ["CFYWMLIV", "GPATS", "NHQEDRK"],
+    "unknown": "4", "H1": [2.1875, -0.34, -3.66], "H2": [-1.56, -0.25, 0.59], "learning_rate": 0.000005
+  },
+  "rhp4": {
+    "name": "RHP four-class", "source_prefix": "4", "groups": ["CYATG", "SQHNP", "LIFWVM", "EDRK"],
+    "unknown": "5", "H1": [-0.512233954, -0.38383707, 1.710733781, -0.814662758],
+    "H2": [-0.959054378, 1.359590767, -0.959054378, 0.558517989], "learning_rate": 0.000005
+  },
+  "wang5": {
+    "name": "Wang5-style", "source_prefix": "5", "groups": ["CMFILVWY", "AHT", "GP", "DE", "NQRKS"],
+    "unknown": "6", "H1": [2.1875, -0.7, -1.0, -3.5, -3.24], "H2": [-1.56, -0.23, -0.36, 0.71, 0.57], "learning_rate": 0.000005
+  },
+  "aa7": {
+    "name": "Seven-group", "source_prefix": "7", "groups": ["AGV", "ILFP", "YMTS", "HNQW", "RK", "DE", "C"],
+    "unknown": "8", "H1": [1.8667, 2.375, -0.225, -2.775, -4.2, -3.5, 2.5],
+    "H2": [-0.51, -1.5, -0.6, -0.39, 1.0, 0.71, -1.54], "learning_rate": 0.000005
+  }
+}

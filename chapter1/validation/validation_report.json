@@ -1,0 +1,44 @@
+{
+  "validation_date_utc": "2026-10-12",
+  "status": "passed",
+  "test_groups": 5,
+  "alphabets_checked": [
+    "hp2",
+    "li3",
+    "rhp4",
+    "wang5",
+    "aa7"
+  ],
+  "original_scripts_verified": 15,
+  "numeric_comparison": "exact equality on the regression inputs",
+  "checked": [
+    "residue mapping",
+    "H1/H2 values",
+    "n-mer and lag features",
+    "feature views",
+    "ablation blocks",
+    "balanced split indices",
+    "model state and output",
+    "CSV and HDF5 interfaces",
+    "checkpoint reload and evaluation"
+  ],
+  "training_example": {
+    "dataset": "synthetic bundled examples",
+    "alphabet": "rhp4",
+    "positive_rows": 12,
+    "negative_rows": 12,
+    "device": "cpu",
+    "seeds": [
+      0
+    ],
+    "epochs": 2
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "h5py": "3.16.0",
+    "torch": "2.14.1+cpu",
+    "scikit_learn": "1.8.0"
+  }
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+work/
+runs/
+data/
+*.partial
+*.h5
+*.hdf5
+*.pt
